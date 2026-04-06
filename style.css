@@ -1,4 +1,7 @@
 a{font-size: 1.8em;
   color: black;
 }
-h1{font-size: 3em}
+h1{
+  font-size: 3em
+  font-family: "Boldonse", system-ui;
+}
