@@ -1,13 +1,17 @@
 a{
-  font-size: 1em;
+  font-size: 1.5em;
   color: black;
-  font-family:"Boldonse", system-ui;
-  text-align: left;
-  font-weight: 100;
+  font-family:"Oswald", system-ui;
+  font-weight: 300;
 }
 
 h1{
-  font-size: 1.5em;
-  font-family:"Boldonse", system-ui;
+  font-size: 2.5em;
+  font-family:"Oswald", system-ui;
+  font-weight: 600;
+}
+
+body{
+  background-color: blue;
   text-align: center;
 }
