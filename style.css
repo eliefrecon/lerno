@@ -3,15 +3,16 @@ a{
   color: black;
   font-family:"Oswald", system-ui;
   font-weight: 300;
+  text-decoration: none;
 }
 
 h1{
   font-size: 2.5em;
   font-family:"Oswald", system-ui;
   font-weight: 600;
+  text-align: center;
 }
 
-body{
-  background-color: blue;
+div{
   text-align: center;
 }
