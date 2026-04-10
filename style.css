@@ -29,11 +29,14 @@ div{
   content: "";
   position: absolute;
   inset: 0;
-  background: url(imageia.png) repeat;
+  background: url(images/imageia.png) repeat;
   background-size: 60%;
   background-position: 30% 80%;
   zoom: 0.5;
-  border: 1px solid black;
+  border: 2px solid black;
+  border-bottom: 7px solid black;
+  border-right: 4px solid black;
+  border-radius: 10px 10px 10px 10px; 
   opacity: 0.5;
   z-index: -1;
 }
@@ -52,8 +55,14 @@ div{
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(to right, #6dfa02, #038e1f);
+  background: url(images/imageapprendre.png) repeat;
+  background-position: -60% 90%;
+  background-size: 80%;
+  zoom: 0.1;
   opacity: 0.5;
-  border: 1px solid black;
+  border: 20px solid black;
+  border-bottom: 70px solid black;
+  border-right: 40px solid black;
+  border-radius: 100px 100px 100px 100px; 
   z-index: -1;
 }
