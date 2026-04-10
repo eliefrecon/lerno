@@ -29,11 +29,31 @@ div{
   content: "";
   position: absolute;
   inset: 0;
-  background-image: url(imageia.png);
+  background: url(imageia.png) repeat;
+  background-size: 60%;
+  background-position: 30% 80%;
   zoom: 0.5;
   border: 1px solid black;
-  background-size: 60%;
-  background-position: center;
   opacity: 0.5;
+  z-index: -1;
+}
+
+
+
+.apprendre {
+  position: relative;
+  display: inline-block;
+  width: 500px;
+  height: 50px;
+  line-height: 45px;
+}
+
+.apprendre::before{
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to right, #6dfa02, #038e1f);
+  opacity: 0.5;
+  border: 1px solid black;
   z-index: -1;
 }
