@@ -17,15 +17,7 @@ div{
   text-align: center;
 }
 
-.ia,
-.dev,
-.cyber,
-.travailler,
-.programation-jv,
-.patisserie,
-.design-3d,
-.cuisine,
-.apprendre {
+.bouton-c {
   position: relative;
   display: inline-block;
   width: 500px;
@@ -35,19 +27,10 @@ div{
   border: 2px solid black;
   box-shadow: black 0.1em 0.2em 0px;
   border-radius: 1em 1em 1em 1em;
+  transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
 }
 
-.ia:hover,
-.dev:hover,
-.cyber:hover,
-.travailler:hover,
-.programation-jv:hover,
-.patisserie:hover,
-.design-3d:hover,
-.cuisine:hover,
-.apprendre:hover {
+.bouton-c:hover {
   box-shadow: black 0em 0em 0px;
-  position: relative;
-  bottom: -0.2em;
-  right: -0.1em; 
+  transform: translate(0.1em, 0.2em);
 }
